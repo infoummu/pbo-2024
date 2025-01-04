@@ -243,3 +243,23 @@ alsa.rimex()
 
 ocin.lani(input("pilihlah proses kalkulator + - * / : "))
 # >>>>>>> main Lastryyy
+
+#uji fungsi dan class marisa husen
+
+from modul_satu_pbo import BankAccount
+
+
+def main():
+
+    akun1 = BankAccount("John Doe", 500000)
+    akun1.cek_saldo()
+    akun1.setor(200000)
+    akun1.tarik(100000)
+    akun1.cek_saldo()
+    akun1.tarik(700000)
+    akun1.setor(-50000)
+    akun1.cek_saldo()
+
+if __name__ == "__main__":
+    main()
+
