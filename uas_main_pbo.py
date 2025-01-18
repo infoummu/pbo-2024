@@ -154,6 +154,9 @@ elif npm == "096":
 elif npm == "090":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Syafril
      syafril()
+elif npm == "067":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Firna
+     firna()
 # >>>>>>> main
 # =======
 # >>>>>>> main
